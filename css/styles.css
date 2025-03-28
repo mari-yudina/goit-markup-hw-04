@@ -234,6 +234,7 @@ img {
   width: 264px;
   height: 112px;
   background: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 .advantages-subtitle {
@@ -327,8 +328,6 @@ img {
   text-align: center;
   color: #2e2f42;
 
-  margin-bottom: 8px;
-
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -341,6 +340,8 @@ img {
 }
 
 .our-portfolio-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
@@ -352,6 +353,11 @@ img {
   width: 360px;
   height: 300px;
   background: #4d5ae5;
+  padding: 40px 32px 164px 32px;
+}
+
+.box-photo-text {
+  color: #f4f4fd;
 }
 
 .portfolio-team-container {
