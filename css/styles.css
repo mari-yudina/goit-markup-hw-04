@@ -403,7 +403,7 @@ img {
 }
 
 .our-portfolio-item:hover .our-portfolio-hover-text:hover {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .our-portfolio-img {
