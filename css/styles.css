@@ -174,14 +174,14 @@ img {
 
 .effective {
   background: #2e2f42;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   height: 600px;
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpeg);
+    url(../images/front-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   block-size: cover;
@@ -252,6 +252,9 @@ img {
 }
 
 .advantages-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
