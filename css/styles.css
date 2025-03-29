@@ -174,7 +174,8 @@ img {
 
 .effective {
   background: #2e2f42;
-  /* max-width: 1440px; */
+  max-width: 1440px;
+  margin: 0 auto;
   height: 600px;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -184,7 +185,9 @@ img {
     url(../images/front-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  block-size: cover;
+  background-size: cover;
+}
+.effective-container {
 }
 
 .effective-title {
@@ -464,5 +467,21 @@ img {
   color: #fff;
   margin-bottom: 16px;
 }
+.icon {
+  fill: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+  width: 16px;
+  height: 16px;
+}
+.our-team-icone-item {
+  position: relative;
+  max-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
 /* ---------------/ FOOTER------------------- */
