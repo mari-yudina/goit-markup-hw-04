@@ -263,7 +263,6 @@ img {
   width: 264px;
   height: 112px;
   background: #f4f4fd;
-  padding: 24px 100px;
   margin-bottom: 8px;
 }
 
@@ -426,13 +425,12 @@ img {
 }
 
 .portfolio-team-container {
-  max-width: 360px;
-  padding: 32px 16px;
-}
-.portfolio-team-container:hover {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+
+  max-width: 360px;
+  padding: 32px 16px;
 }
 
 .our-portfolio-subtitle {
@@ -477,7 +475,6 @@ img {
 }
 
 .footer-box {
-  margin-left: 120px;
 }
 
 .social-media-text {
